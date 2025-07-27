@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Brand Audit for Women-led Startups</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center both image and text */
+      align-items: center; /* Vertically center */
+      background: #f2f2f2;
+      padding: 60px 20px;
+    }
+    .hero-text {
+      flex: 1 1 50%; /* Allow text to take up 50% of the space */
+      padding: 20px;
+      max-width: 600px; /* Limit width of text */
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .hero-text a {
+      padding: 12px 24px;
+      background: #5c4dff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .hero-image {
+      flex: 1 1 50%; /* Allow image to take up 50% of the space */
+      padding: 20px;
+      max-width: 600px; /* Limit the width of the image */
+    }
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* Ensures the image fits within the container without distortion */
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #f5f5f5;
+      font-size: 0.9rem;
+    }
+  
+    /* Media Query for Small Screens (Mobile) */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column; /* Stack image and text vertically */
+        padding: 40px 20px;
+      }
+      .hero-text {
+        text-align: center; /* Center align the text */
+        padding: 20px;
+        max-width: 100%;
+      }
+      .hero-image {
+        max-width: 100%;
+        padding: 20px 0;
+      }
+      .hero-image img {
+        width: 100%; /* Ensure the image stretches on smaller screens */
+        height: auto;
+      }
+    }
+  </style>
+  
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Build a Brand That Gets You Funded</h1>
+      <p>Apply for a free brand audit — made for women-led startups building for growth, visibility, and funding.</p>
+      <a href="#form">Get My Free Brand Audit</a>
+    </div>
+    <div class="hero-image">
+      <img src="/form-image.jpg" alt="Founder image" />
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Are Women-led Startups Getting Only 2% of the Funding?</h2>
+    <p>It’s not just about capital. It’s about perception, visibility, and storytelling. And branding shapes all three.</p>
+  </section>
+
+  <section class="section">
+    <h2>What’s Inside the Free Brand Audit</h2>
+    <div class="grid">
+      <div class="card"><strong>Messaging Review</strong><p>Is your story investor-aligned?</p></div>
+      <div class="card"><strong>Visual Identity Check</strong><p>Does your brand reflect traction?</p></div>
+      <div class="card"><strong>Digital Presence Scan</strong><p>Are you visible where it matters?</p></div>
+      <div class="card"><strong>Positioning Scorecard</strong><p>Is your value clearly positioned?</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Apply for Your Free Brand Audit</h2>
+    <form action="https://formspree.io/f/mblkyrgb" method="POST" target="_blank">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" placeholder="Your full name" required>
+  
+      <label for="business">Business Name</label>
+      <input type="text" name="business-name" placeholder="Your business name" required>
+  
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Your email address" required>
+  
+      <label for="phone">Phone Number (Optional)</label>
+      <input type="tel" name="phone" placeholder="Your phone number">
+  
+      <label>Is your business registered?</label>
+      <select name="business-registerd" required>
+        <option value="">Select</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+  
+      <label>Have you started earning revenue?</label>
+      <select name="revenue-when" required>
+        <option value="">Select</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+  
+      <label>Do you have a pitch deck or business profile?</label>
+      <select name="pitch-deck" required>
+        <option value="">Select</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+  
+      <button type="submit">Submit</button>
+    </form>  
+  </section>
+
+  <footer>
+    &copy; 2025 Your Agency Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
